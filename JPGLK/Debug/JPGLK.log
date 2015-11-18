@@ -1,0 +1,22 @@
+﻿生成启动时间为 2009/2/6 16:00:59。
+     1>项目“D:\JPGLK\JPGLK\JPGLK.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\JPGLK.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt JPGLKK.cpp
+         JPGLKK.cpp
+     1>d:\jpglk\jpglk\jpglkk.cpp(127): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\jpglk\jpglk\jpglkk.cpp(127): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\jpglk\jpglk\jpglkk.cpp(127): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\jpglk\jpglk\jpglkk.cpp(127): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\JPGLK\Debug\JPGLK.exe" /INCREMENTAL /NOLOGO opencv_calib3d248.lib opencv_contrib248.lib opencv_core248.lib opencv_ml248d.lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_objdetect248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_nonfree248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_videostab248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\JPGLK.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\JPGLK\Debug\JPGLK.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\JPGLK\Debug\JPGLK.lib" /MACHINE:X86 Debug\JPGLK.exe.embed.manifest.res
+         Debug\JPGLKK.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“opencv_ml249d.lib”
+     1>已完成生成项目“D:\JPGLK\JPGLK\JPGLK.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.90
